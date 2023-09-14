@@ -3,7 +3,7 @@
     "id": 1,
     "image": "https://i.ibb.co/Jk0WVp7/Rectangle-2-2.png",
     "course_name": "Introduction to C Programming",
-    "details": "A Basic Data Structure Course introduces fundamental concepts like arrays, linked lists, trees, and graphs, teaching efficient data organization and manipulation techniques for software development.",
+    "details": "A Basic Data Structure Course introduces fundamental concepts like arrays, linked lists, trees, and ",
     "price": 15000,
     "credit": 1
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "image": "https://i.ibb.co/MBNz5x0/Rectangle-2-3.png",
     "course_name": "Introduction to Algorithms",
-    "details": "Introduction to Algorithms explores algorithm design, analysis, and optimization techniques, fostering problem-solving skills crucial in computer science and software development for efficient problem-solving and code optimization.",
+    "details": "Introduction to Algorithms explores algorithm design, analysis, and optimization techniques, fostering ",
     "price": 25000,
     "credit": 2
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "image": "https://i.ibb.co/ncn2Zg2/Rectangle-2-4.png",
     "course_name": "Introduction to C++ for DSA",
-    "details": "Introduction to C++ for DSA (Data Structures and Algorithms) covers C++ fundamentals, enhancing coding skills for efficient algorithm implementation and data structure utilization in software development.",
+    "details": "Introduction to C++ for DSA (Data Structures and Algorithms) covers C++ fundamentals, enhancing coding skills ",
     "price": 10000,
     "credit": 10
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "image": "https://i.ibb.co/D95XrrB/Rectangle-3.png",
     "course_name": "Basic Data Structures",
-    "details": "Basic data structures include arrays, linked lists, stacks, and queues, serving as fundamental tools for organizing and manipulating data in computer programming and software development.",
+    "details": "Basic data structures include arrays, linked lists, stacks, and queues, serving as fundamental tools for organizing ",
     "price": 35000,
     "credit": 5
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "image": "https://i.ibb.co/Z1f8SqZ/Rectangle-2.png",
     "course_name": "Introduction to OOP Python",
-    "details": "Introduction to OOP Python explores object-oriented programming concepts, teaching encapsulation, inheritance, and polymorphism for creating modular and efficient Python programs.",
+    "details": "Introduction to OOP Python explores object-oriented programming concepts, teaching encapsulation, inheritance.",
     "price": 19000,
     "credit": 5
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "image": "https://i.ibb.co/qYdcRSt/Rectangle-2-5.png",
     "course_name": "Software Engineering",
-    "details": "Software engineering is a disciplined approach to designing, developing, testing, and maintaining software systems. It involves systematic methods and best practices for reliable and efficient software creation.",
+    "details": "Software engineering is a disciplined approach to designing, developing, testing, and maintaining software..",
     "price": 23000,
     "credit": 2
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "image": "https://i.ibb.co/ZNP25PP/Rectangle-3-1.png",
     "course_name": "AWS, Cloud Computing",
-    "details": "AWS (Amazon Web Services) is a leading provider of cloud computing services, offering scalable infrastructure, storage, databases, and tools for businesses to deploy, manage, and scale applications in the cloud. Cloud computing revolutionizes IT by providing on-demand resources and cost-effective solutions.",
+    "details": "AWS (Amazon Web Services) is a leading provider of cloud computing services, offering scalable infrastructure, ",
     "price": 35000,
     "credit": 5
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "image": "https://i.ibb.co/Snwc4RL/Rectangle-2-1.png",
     "course_name": "Database (MySQL)",
-    "details": "MySQL is an open-source relational database management system (RDBMS) widely used in web applications. It stores data in structured tables, supporting SQL queries for data retrieval, manipulation, and management in various software applications.",
+    "details": "MySQL is an open-source relational database management system (RDBMS) widely used in web applications.",
     "price": 19000,
     "credit": 5
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "image": "https://i.ibb.co/HgZKcjn/Rectangle-2-6.png",
     "course_name": "Problem-Solving Part",
-    "details": "Problem-solving is a critical skill in various fields. It involves identifying, analyzing, and solving challenges using logical thinking and creativity, often with step-by-step approaches and critical thinking.",
+    "details": "Problem-solving is a critical skill in various fields. It involves identifying, analyzing, and solving challenges ",
     "price": 23000,
     "credit": 2
   }

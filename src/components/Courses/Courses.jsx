@@ -11,7 +11,7 @@ const Courses = (props) => {
       .then((data) => setAllCourses(data));
   }, []);
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 bg-[#f3f3f3;] lg:grid-cols-3">
       {allCourses.map((course, idx) => (
         <Course key={idx} course={course}></Course>
       ))}
