@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Course from '../Course/Course';
 
-const Courses = (props) => {
+const Courses = ({ handleSelectedCourses }) => {
   const [allCourses, setAllCourses] = useState([]);
   useEffect(() => {
     fetch('courses.json')
@@ -13,12 +13,18 @@ const Courses = (props) => {
   return (
     <div className="grid gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 bg-[#f3f3f3;] lg:grid-cols-3">
       {allCourses.map((course, idx) => (
-        <Course key={idx} course={course}></Course>
+        <Course
+          key={idx}
+          course={course}
+          handleSelectedCourses={handleSelectedCourses}
+        ></Course>
       ))}
     </div>
   );
 };
 
-Courses.propTypes = {};
+Courses.propTypes = {
+  handleSelectedCourses: PropTypes.func.isRequired,
+};
 
 export default Courses;

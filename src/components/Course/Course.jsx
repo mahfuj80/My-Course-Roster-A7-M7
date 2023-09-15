@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import { LuDollarSign } from 'react-icons/lu';
 import { BsBook } from 'react-icons/bs';
 
-const Course = ({ course }) => {
+const Course = ({ course, handleSelectedCourses }) => {
   const { id, course_name, image, details, price, credit } = course;
-  console.log(course);
+  // console.log(course);
   return (
     <div>
       <div className="card bg-base-100 ">
@@ -29,7 +29,12 @@ const Course = ({ course }) => {
                 <span className="text-[#1C1B1B99]">Credit : {credit}hr</span>
               </div>
             </div>
-            <button className="w-full bg-[#2F80ED] rounded-lg text-white h-10">
+            <button
+              onClick={() =>
+                handleSelectedCourses(id, course_name, credit, price)
+              }
+              className="w-full bg-[#2F80ED] rounded-lg text-white h-10"
+            >
               Select
             </button>
           </div>
@@ -41,6 +46,7 @@ const Course = ({ course }) => {
 
 Course.propTypes = {
   course: PropTypes.object.isRequired,
+  handleSelectedCourses: PropTypes.func.isRequired,
 };
 
 export default Course;
