@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import swal from 'sweetalert';
 import './App.css';
 import Cart from './components/Cart/Cart';
 import Courses from './components/Courses/Courses';
@@ -19,10 +20,18 @@ function App() {
     const newRemainingCredit = totalValidCreditHour - newUsedCredit;
     const isCreditValid = newUsedCredit <= totalValidCreditHour;
     if (isAlreadySelected) {
-      return alert("you can't add one course twice");
+      return swal({
+        title: 'Something went Wrong',
+        text: "You can't add a Course Twice",
+        icon: 'warning',
+      });
     } else {
       if (!isCreditValid) {
-        return alert('Credit hour problem');
+        return swal({
+          title: 'Something went Wrong',
+          text: "Credit Hour Reached Over, You can't select any course",
+          icon: 'warning',
+        });
       } else {
         const newSelectedCoursesId = [...selectedCoursesId, id];
         const newCoursesName = [...selectedCoursesName, course_name];
